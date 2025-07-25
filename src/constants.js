@@ -1,7 +1,7 @@
 // src/constants.js
 
 // ✅ Proper image imports
-import laptopImg from './assets/Images/Laptop.jpg';
+import laptopImg from './assets/Images/laptop.jpg';
 import cmf from './assets/Images/cmf.png';
 import iphone16pro from './assets/Images/iphone16pro.png';
 
