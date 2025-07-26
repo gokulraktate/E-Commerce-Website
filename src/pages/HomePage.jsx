@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
-    <div className="bg-gray-50 dark:bg-gray-900 min-h-screen">
+    <div className=" bg-white min-h-screen">
       <HeroSlider />
       <TopCategories/>
       <FeaturedProducts/>

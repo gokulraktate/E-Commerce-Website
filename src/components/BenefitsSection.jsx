@@ -1,4 +1,3 @@
-// src/components/BenefitsSection.jsx
 const benefits = [
   {
     id: 1,
@@ -28,18 +27,20 @@ const benefits = [
 
 const BenefitsSection = () => {
   return (
-    <section className="w-full py-10 bg-gray-100 dark:bg-gray-900">
-      <div className="max-w-screen-xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+    <section className="w-full py-12 bg-white">
+      <div className="max-w-screen-xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {benefits.map((benefit) => (
           <div
             key={benefit.id}
-            className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow hover:shadow-lg transition"
+            className="bg-blue-50 p-6 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 text-center"
           >
-            <div className="text-3xl mb-3">{benefit.icon}</div>
-            <h3 className="font-semibold text-lg text-gray-800 dark:text-white">
+            <div className="text-4xl mb-3 bg-white w-12 h-12 mx-auto flex items-center justify-center rounded-full shadow">
+              {benefit.icon}
+            </div>
+            <h3 className="text-lg font-semibold text-gray-800 mb-1">
               {benefit.title}
             </h3>
-            <p className="text-gray-600 dark:text-gray-300 text-sm">{benefit.desc}</p>
+            <p className="text-gray-600 text-sm">{benefit.desc}</p>
           </div>
         ))}
       </div>

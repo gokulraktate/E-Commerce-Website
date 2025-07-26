@@ -1,9 +1,13 @@
 // src/constants.js
 
 // ✅ Proper image imports
-import laptopImg from './assets/Images/laptop.jpg';
+import macbookImg from './assets/Images/mackbookairm2.png';
 import cmf from './assets/Images/cmf.png';
 import iphone16pro from './assets/Images/iphone16pro.png';
+import earbuds from './assets/Images/earbuds.webp';
+import smartwatch1 from './assets/Images/smartwatch.webp';
+import monitor1 from './assets/Images/monitor.avif';
+import speaker1 from './assets/Images/speaker.png';
 
 // ✅ Categories
 import mobile from './assets/Images/categories/mobile.png';
@@ -11,7 +15,7 @@ import laptop from './assets/Images/categories/laptop.png';
 import earbud from './assets/Images/categories/earbud.png';
 import monitor from './assets/Images/categories/monitor.png';
 import speaker from './assets/Images/categories/speaker.png';
-import tablet from './assets/Images/categories/tablet.png';
+// import tablet from './assets/Images/categories/tablet.png';
 import smartwatch from './assets/Images/categories/smartwatch.webp';
 
 // ✅ Brands (fixed)
@@ -26,17 +30,17 @@ import lenovo from './assets/Images/brands/lenovo.png';
 export const heroBanners = [
   {
     id: 1,
-    title: "HP Laptop 13th Gen",
-    subtitle: "Core i3 | Fast Charge | Anti-glare",
-    offer: "From ₹32,499",
-    image: laptopImg,
-    tag: "Limited time deal!",
+    title: "MacBook Air M2",
+    subtitle: "Apple Silicon | Sleek & Powerful | Retina Display",
+    offer: "From ₹89,900",
+    image: macbookImg,
+    tag: "Student Favourite",
     bgColor: "bg-gray-100",
   },
   {
     id: 2,
     title: "CMF Phone 2 Pro",
-    subtitle: "Powerful camera | Flipkart Exclusive",
+    subtitle: "Powerful Camera | Flipkart Exclusive",
     offer: "From ₹16,999",
     image: cmf,
     tag: "Exclusive Offer",
@@ -50,6 +54,42 @@ export const heroBanners = [
     image: iphone16pro,
     tag: "New Launch",
     bgColor: "bg-slate-100",
+  },
+  {
+    id: 4,
+    title: "boAt Airdopes 141 Pro",
+    subtitle: "40H Playback | ASAP Charge | ENx Tech",
+    offer: "From ₹999",
+    image: earbuds,
+    tag: "Hot Deal",
+    bgColor: "bg-pink-50",
+  },
+  {
+    id: 5,
+    title: "Fire-Boltt Ninja Call Pro",
+    subtitle: "1.83” Display | Bluetooth Calling | 120+ Sports Modes",
+    offer: "From ₹1,199",
+    image: smartwatch1,
+    tag: "Trending Now",
+    bgColor: "bg-green-50",
+  },
+  {
+    id: 6,
+    title: "Samsung 27” Monitor",
+    subtitle: "Full HD | Eye Saver Mode | Slim Design",
+    offer: "From ₹7,999",
+    image: monitor1,
+    tag: "Work from Home",
+    bgColor: "bg-blue-50",
+  },
+  {
+    id: 7,
+    title: "Zebronics Bluetooth Speaker",
+    subtitle: "RGB Lights | Deep Bass | 10W Sound",
+    offer: "From ₹1,499",
+    image: speaker1,
+    tag: "Party Essential",
+    bgColor: "bg-yellow-50",
   },
 ];
 
@@ -84,11 +124,11 @@ export const topCategories = [
     name: "Speakers",
     image: speaker,
   },
-  {
-    id: 7,
-    name: "Tablets",
-    image: tablet,
-  },
+  // {
+  //   id: 7,
+  //   name: "Tablets",
+  //   image: tablet,
+  // },
 ];
 
 export const topBrands = [
