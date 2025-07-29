@@ -17,20 +17,13 @@ const Navbar = () => {
   return (
     <nav
       className={`sticky top-0 z-50 backdrop-blur-lg transition-all duration-300 ${
-        isScrolled ? "bg-white/8 shadow-sm" : "bg-white "
+        isScrolled ? "bg-white/80 shadow-sm" : "bg-white"
       }`}
     >
       <div className="max-w-screen-xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center space-x-3">
-          <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="h-8"
-            alt="Logo"
-          />
-          <span className="text-2xl font-bold text-violet-600">
-            TechStore
-          </span>
+          <span className="text-2xl font-bold text-indigo-600">TechStore</span>
         </a>
 
         {/* Desktop Search */}
@@ -38,7 +31,7 @@ const Navbar = () => {
           <input
             type="text"
             placeholder="Search products..."
-            className="w-64 px-4 py-2 pl-10 rounded-lg border text-sm border-gray-300 bg-gray-100 focus:ring-violet-500 focus:border-violet-500"
+            className="w-64 px-4 py-2 pl-10 rounded-lg border text-sm border-gray-300 bg-gray-100 focus:ring-indigo-500 focus:border-indigo-500"
           />
           <svg
             className="absolute left-3 top-2.5 w-4 h-4 text-gray-400"
@@ -59,13 +52,13 @@ const Navbar = () => {
         <div className="flex items-center space-x-4 md:order-2">
           <a href="#" className="relative text-gray-700 text-xl">
             <FaShoppingCart />
-            <span className="absolute -top-2 -right-2 text-xs bg-violet-600 text-white px-1.5 py-0.5 rounded-full">
+            <span className="absolute -top-2 -right-2 text-xs bg-indigo-600 text-white px-1.5 py-0.5 rounded-full">
               2
             </span>
           </a>
           <a
             href="#"
-            className="text-sm px-4 py-1.5 bg-violet-600 text-white rounded-lg hover:bg-violet-700 transition"
+            className="text-sm px-4 py-1.5 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition"
           >
             Login
           </a>
@@ -101,26 +94,26 @@ const Navbar = () => {
             <input
               type="text"
               placeholder="Search..."
-              className="w-full px-4 py-2 mb-4 rounded-lg border text-sm border-gray-300 bg-gray-100 focus:ring-violet-500 focus:border-violet-500"
+              className="w-full px-4 py-2 mb-4 rounded-lg border text-sm border-gray-300 bg-gray-100 focus:ring-indigo-500 focus:border-indigo-500"
             />
             <ul className="flex flex-col gap-2 text-gray-700 font-medium">
               <li>
-                <a href="#" className="block px-4 py-2 hover:text-violet-600">
+                <a href="#" className="block px-4 py-2 hover:text-indigo-600">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="block px-4 py-2 hover:text-violet-600">
+                <a href="#" className="block px-4 py-2 hover:text-indigo-600">
                   Products
                 </a>
               </li>
               <li>
-                <a href="#" className="block px-4 py-2 hover:text-violet-600">
+                <a href="#" className="block px-4 py-2 hover:text-indigo-600">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="block px-4 py-2 hover:text-violet-600">
+                <a href="#" className="block px-4 py-2 hover:text-indigo-600">
                   Contact
                 </a>
               </li>
@@ -130,16 +123,16 @@ const Navbar = () => {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex space-x-8 font-medium text-gray-700 md:order-1">
-          <a href="#" className="hover:text-violet-600 transition">
+          <a href="#" className="hover:text-indigo-600 transition">
             Home
           </a>
-          <a href="#" className="hover:text-violet-600 transition">
+          <a href="#" className="hover:text-indigo-600 transition">
             Products
           </a>
-          <a href="#" className="hover:text-violet-600 transition">
+          <a href="#" className="hover:text-indigo-600 transition">
             About
           </a>
-          <a href="#" className="hover:text-violet-600 transition">
+          <a href="#" className="hover:text-indigo-600 transition">
             Contact
           </a>
         </div>
